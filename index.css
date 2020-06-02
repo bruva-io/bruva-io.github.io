@@ -1,0 +1,37 @@
+/* https://startbootstrap.com/snippets/full-image-background/ */
+body {
+  background: url('radovan-46Yad80Ynp4-unsplash.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+html, body {
+    height: 100%;
+}
+.full-viewport-height {
+   height: 20em;
+   height: 105vh;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(105, 105, 105, 0.4); 
+    border-radius: 20px !important;
+}
+
+a {
+  color: white;
+}
